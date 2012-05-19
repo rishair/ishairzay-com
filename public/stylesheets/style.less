@@ -1,0 +1,46 @@
+@import "public/stylesheets/elements.less";
+
+@stance: "Oswald";
+@suave: "Oleo Script";
+@classy: "Oxygen";
+
+
+@darkAccent: #1F1F1F;
+@faintAccent: #D9D9BF;
+@primaryAccent: #325C02;
+@secondaryAccent: #8EAB23;
+
+
+h1 {
+	font-family: @stance, cursive;
+	text-transform: uppercase;
+	font-size:30pt;
+	color:@primaryAccent;
+}
+
+h3 {
+	font-family: @classy;
+}
+
+body {
+	background:@faintAccent;
+}
+
+#header {
+	height:30px;
+	.gradient(@darkAccent, @darkAccent, lighten(@darkAccent, 10%));
+	.drop-shadow(0, 0, 10px, .5);
+	border-bottom: solid 1px lighten(@darkAccent, 40%);
+	margin-bottom:30px;
+}
+
+.title {
+	text-align:center;
+}
+
+.separator {
+	background: url(/images/separator.png);
+	width:403px;
+	height:20px;
+	margin: 0 auto;
+}

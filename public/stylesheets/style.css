@@ -1,0 +1,45 @@
+/*---------------------------------------------------
+    LESS Elements 0.6
+  ---------------------------------------------------
+    A set of useful LESS mixins by Dmitry Fadeyev
+    Special thanks for mixin suggestions to:
+      Kris Van Herzeele,
+      Benoit Adam,
+      Portenart Emile-Victor,
+      Ryan Faerman
+
+    More info at: http://lesselements.com
+-----------------------------------------------------*/
+h1 {
+  font-family: "Oswald", cursive;
+  text-transform: uppercase;
+  font-size: 30pt;
+  color: #325c02;
+}
+h3 {
+  font-family: "Oxygen";
+}
+body {
+  background: #d9d9bf;
+}
+#header {
+  height: 30px;
+  background: #1f1f1f;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1f1f1f), color-stop(1, #393939));
+  background: -ms-linear-gradient(bottom, #1f1f1f, #393939);
+  background: -moz-linear-gradient(center bottom, #1f1f1f 0%, #393939 100%);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-bottom: solid 1px #858585;
+  margin-bottom: 30px;
+}
+.title {
+  text-align: center;
+}
+.separator {
+  background: url(/images/separator.png);
+  width: 403px;
+  height: 20px;
+  margin: 0 auto;
+}
